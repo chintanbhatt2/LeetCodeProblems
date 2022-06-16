@@ -33,8 +33,8 @@ class Solution:
         iten = ["JFK"]
         while(len(airports) != 0):
             if len(airports[startIndex].outbound) == 0:
-                if len()
-                break
+                if len() == 0:
+                    break
             currentFlight = airports[startIndex].takeFlight()
             iten.append(currentFlight)
             if len(airports[startIndex].outbound) == 0:
